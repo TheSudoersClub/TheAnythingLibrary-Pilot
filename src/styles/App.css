@@ -1,0 +1,21 @@
+.app {
+    margin-inline: .5rem;
+}
+
+.app__header {
+    background: var(--bg-clr-1);
+    padding-block: .5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.app__container__listings{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+
+.app__container__wishlist{
+    padding-bottom: .5rem;
+}

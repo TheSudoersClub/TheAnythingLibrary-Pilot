@@ -1,0 +1,56 @@
+.wishlist{
+    background: var(--bg-clr-2);
+    height: 20rem;
+    border-radius: 8px;
+    padding: 1rem;  
+    padding-bottom: 2.5rem;
+}
+
+.wishlist__header{
+    /* background: red; */
+
+}
+
+.wishlist__header h1{
+    font-size: 1.5rem;
+    color: var(--txt-clr-2);
+}
+
+.wishlist__container{
+    overflow: auto;
+    margin-top: .5rem;
+    height: 75%;
+    /* background: green; */
+    padding-inline: 2rem;
+    margin-block: 1rem;
+}
+
+.wishlist__container li{
+   margin-block: .2rem;
+   list-style:disc;
+   color: var(--txt-clr-2);
+   font-size: 1.2rem;
+}
+.whishlist__add{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.whishlist__add input{
+    /* background: red; */
+    background: var(--bg-clr-3);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    height: 1.8rem;   
+    width: 100%;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+}
+
+.whishlist__add button {
+background: var(--primary-clr);
+color: white;
+}
