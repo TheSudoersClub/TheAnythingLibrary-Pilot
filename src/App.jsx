@@ -4,7 +4,7 @@ import { itemList } from "./data/itemList";
 import './styles/App.css'
 
 const App = () => {
-  const [authenticated, setAuthenticated] = useState(localStorage.getItem('authenticated')|| false);
+  const [authenticated, setAuthenticated] = useState(localStorage.getItem('authenticated') || false);
   const [modalOpened, setModalOpened] = useState(false);
   const [selectedItem, setSelectedItem] = useState({});
   const [searchText, setSearchText] = useState('');
@@ -12,8 +12,8 @@ const App = () => {
 
   useEffect(() => {
     const localList = JSON.parse(localStorage.getItem('itemsList')) || itemList;
- 
-    if (localList != list){
+
+    if (localList != list) {
       const updatedList = list.map((item) => {
         const localItem = localList.find((localItem) => localItem.itemId === item.itemId);
         if (localItem) {
@@ -68,7 +68,7 @@ const App = () => {
                     if (
                       item.itemName.toLowerCase().startsWith(searchText) ||
                       item.itemKeywords.some((keyword) => keyword.toLowerCase().startsWith(searchText))
-                    ) 
+                    )
                       return (
                         <ItemCard
                           key={item.itemId}

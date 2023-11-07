@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import Lottie from "lottie-react";
 import TickAnimation from "../../assets/anim/tick.json";
 import { addDoc, collection, doc, getDocs } from 'firebase/firestore'
+import LocationIcon from '../../assets/icons/locationIcon.svg'
 import { useAuthState } from "react-firebase-hooks/auth"
 import { auth } from "../../config/firebaseAuth";
 import './Modal.css'
@@ -77,6 +78,10 @@ const Modal = (props) => {
                     <div className="modal__wrapper__info__description">
                         <p>{props.selectedItem.itemDescription}</p>
                     </div>
+                </div>
+                <div className="modal__wrapper__location">
+                    <img src={LocationIcon} alt="location" />
+                    <p>{props.selectedItem.location}</p>
                 </div>
                 <div className="modal__wrapper__cta">
                     <button ref={btnRef} onClick={handleOnClick}>{buttonText}</button>

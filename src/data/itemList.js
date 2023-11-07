@@ -48,6 +48,7 @@ export const itemList = [
 		itemImage: ComputerAyush,
 		itemKeywords: ["computer", "monitor", "keyboard", "CPU", "Mouse"],
 		status: "listed",
+		location: 'Mumbai Naka',
 		itemId: "1e44341e-74f5-437e-89da-391717af1920",
 	},
 	{
@@ -57,6 +58,7 @@ export const itemList = [
 		itemImage: CarromBoard1,
 		itemKeywords: ["carrom", "board", "carromBoard"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "754fb69d-f10a-48b0-a68c-49d96fcf590a",
 	},
 	{
@@ -66,6 +68,7 @@ export const itemList = [
 		itemImage: Badminton,
 		itemKeywords: ["badminton", "racket"],
 		status: "listed",
+		location: 'NearJatra Hotel',
 		itemId: "ac42bae6-be7b-477e-ae3b-9f60a108a7fd",
 	},
 	{
@@ -75,6 +78,7 @@ export const itemList = [
 		itemImage: ComputerSpeakers,
 		itemKeywords: ["computer speakers", "speakers", "computer", "pc", "laptop"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "4dcd0535-143d-4211-b152-7532ab20028e",
 	},
 	{
@@ -93,6 +97,7 @@ export const itemList = [
 		itemImage: CycleAyush,
 		itemKeywords: ["cycle", "bicycle", "duchaki", "exercise"],
 		status: "listed",
+		location: 'Mumbai Naka',
 		itemId: "d366a09b-091c-4d2f-bf14-7e290ae9f0f6",
 	},
 	{
@@ -102,6 +107,7 @@ export const itemList = [
 		itemImage: Rody,
 		itemKeywords: ["rody", "toys", "horse", "kids", "toy"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "46df91cc-f99a-4a49-ab56-bb973a308572",
 	},
 	{
@@ -111,6 +117,7 @@ export const itemList = [
 		itemImage: Flute,
 		itemKeywords: ["flute", "instrument", "music"],
 		status: "listed",
+		location: 'Mumbai Naka',
 		itemId: "1212cb79-15ae-46ba-9e57-e698539ec140",
 	},
 	{
@@ -120,6 +127,7 @@ export const itemList = [
 		itemImage: SolderGun,
 		itemKeywords: ["solder gun", "gun", "solder"],
 		status: "listed",
+		location: 'Mumbai Naka',
 		itemId: "129e1d28-5894-46f9-8a33-49bfad3e30c7",
 	},
 	{
@@ -129,6 +137,7 @@ export const itemList = [
 		itemImage: BeanBag,
 		itemKeywords: ["bean bag", "bag", "chair", "thermocol"],
 		status: "listed",
+		location: 'Koshiko nagar',
 		itemId: "d22dec4b-c785-4a6d-83c6-82f52f1ccff0",
 	},
 	{
@@ -138,6 +147,7 @@ export const itemList = [
 		itemImage: DrawingArmTanmay,
 		itemKeywords: ["drawingArm"],
 		status: "listed",
+		location: 'Panchavati',
 		itemId: "acf22c65-f57c-4b0a-ab82-b3300cffac3e",
 	},
 	{
@@ -147,6 +157,7 @@ export const itemList = [
 		itemImage: Dumbles,
 		itemKeywords: ["dumbles", "gym"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "4673feb9-ec5d-48c7-88df-3ec67c347f4a",
 	},
 	{
@@ -156,6 +167,7 @@ export const itemList = [
 		itemImage: DumblesSahil,
 		itemKeywords: ["dumbles"],
 		status: "listed",
+		location: 'CIDCO',
 		itemId: "c9bf6dad-a5a1-4efb-befe-abf147cf7e0e",
 	},
 	{
@@ -165,6 +177,7 @@ export const itemList = [
 		itemImage: KeyboardAyush,
 		itemKeywords: ["keyboard", "computer", "pc", "laptop"],
 		status: "listed",
+		location: 'Mumbai Naka',
 		itemId: "501d14dc-ee2a-4a2c-8820-49b891ecf35b",
 	},
 	{
@@ -174,6 +187,7 @@ export const itemList = [
 		itemImage: KeyboardSaloni,
 		itemKeywords: ["keyboard", "computer", "pc", "laptop"],
 		status: "listed",
+		location: 'Gangapur road',
 		itemId: "10cd8f43-aab9-4b75-b1f6-14035da1243f",
 	},
 	{
@@ -183,6 +197,7 @@ export const itemList = [
 		itemImage: StevJobsBook,
 		itemKeywords: ["book", "apple", 'stev', 'jobs'],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "98c62cb8-0456-4a68-922e-5b656d2e3ebd",
 	},
 	{
@@ -192,6 +207,7 @@ export const itemList = [
 		itemImage: PaintBrush,
 		itemKeywords: ["paint brush", "brush", "drawing", "painting"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "2cc16f07-e687-4e67-ae2d-db94d300b0d1",
 	},
 	{
@@ -201,6 +217,7 @@ export const itemList = [
 		itemImage: Ps2,
 		itemKeywords: ["ps2", "cd", "game", "video game"],
 		status: "listed",
+		location: 'NearJatra Hotel',
 		itemId: "d2e355b0-a769-4e8a-b60c-ea7860775993",
 	},
 	{
@@ -210,6 +227,7 @@ export const itemList = [
 		itemImage: TravelBag,
 		itemKeywords: ["bag", "travel", "tourist"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "359140b8-aee0-40b0-8f02-e70cb4588e2a",
 	},
 	{
@@ -219,6 +237,7 @@ export const itemList = [
 		itemImage: Keyboard,
 		itemKeywords: ["Keyboard"],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "aadb252b-56ad-4d38-af3c-1710a9a02771",
 	},
 	{
@@ -228,6 +247,7 @@ export const itemList = [
 		itemImage: Computer,
 		itemKeywords: ["computer", 'pc'],
 		status: "listed",
+		location: "Mahatmanagar (near CCM)",
 		itemId: "2d2edb54-9d5e-4246-9946-4aaf01cf0309",
 	},
 	{
@@ -237,6 +257,7 @@ export const itemList = [
 		itemImage: CarromBoardShrirang,
 		itemKeywords: ["board", "carrom"],
 		status: "listed",
+		location: 'NearJatra Hotel',
 		itemId: "dc92409e-47ba-474e-9903-a9f01b0dc50d",
 	},
 
