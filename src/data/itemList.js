@@ -68,7 +68,7 @@ export const itemList = [
 		itemDescription: "Badminton Racket x 2 | Shuttlecock x 1",
 		itemImage: Badminton,
 		itemKeywords: ["badminton", "racket"],
-		status: "listed",
+		status: "borrowed",
 		location: 'NearJatra Hotel',
 		itemId: "ac42bae6-be7b-477e-ae3b-9f60a108a7fd",
 	},
