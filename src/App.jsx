@@ -55,6 +55,7 @@ const App = () => {
 
   return (
     <div className="app">
+      { window.innerWidth > 500 && <div style={{height: '100vh', width: '100vw', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Please View On Mobile</div>}
       {
         authenticated ? (
           <>
