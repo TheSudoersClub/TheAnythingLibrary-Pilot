@@ -1,5 +1,11 @@
+.rootContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .app {
     margin-inline: .5rem;
+    max-width: 392px;
 }
 
 .app__header {

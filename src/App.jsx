@@ -54,56 +54,58 @@ const App = () => {
 
 
   return (
-    <div className="app">
-      { window.innerWidth > 500 && <div style={{height: '100vh', width: '100vw', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Please View On Mobile</div>}
-      {
-        authenticated ? (
-          <>
-            <div className="app__header">
-              <Header setSearchText={setSearchText} />
-            </div>
-            <div className="app__container">
-              <div className="app__container__listings">
-                {
-                  list.map((item) => {
-                    if (
-                      item.itemName.toLowerCase().startsWith(searchText) ||
-                      item.itemKeywords.some((keyword) => keyword.toLowerCase().startsWith(searchText))
-                    )
-                      return (
-                        <ItemCard
-                          key={item.itemId}
-                          image={item.itemImage}
-                          title={item.itemName}
-                          description={item.itemDescription}
-                          openModal={openModal}
-                          item={item}
-                          transactionState={item.transactionState}
-                          status={item.status}
-                        />
+    <div className="rootContainer">
+      <div className="app">
+        {/* { window.innerWidth > 500 && <div style={{height: '100vh', width: '100vw', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Please View On Mobile</div>} */}
+        {
+          authenticated ? (
+            <>
+              <div className="app__header">
+                <Header setSearchText={setSearchText} />
+              </div>
+              <div className="app__container">
+                <div className="app__container__listings">
+                  {
+                    list.map((item) => {
+                      if (
+                        item.itemName.toLowerCase().startsWith(searchText) ||
+                        item.itemKeywords.some((keyword) => keyword.toLowerCase().startsWith(searchText))
                       )
-                  })
-                }
+                        return (
+                          <ItemCard
+                            key={item.itemId}
+                            image={item.itemImage}
+                            title={item.itemName}
+                            description={item.itemDescription}
+                            openModal={openModal}
+                            item={item}
+                            transactionState={item.transactionState}
+                            status={item.status}
+                          />
+                        )
+                    })
+                  }
+                </div>
+                <hr style={{ marginBlock: '1rem' }} />
+                <div className="app__container__wishlist">
+                  <Wishlist />
+                </div>
               </div>
-              <hr style={{ marginBlock: '1rem' }} />
-              <div className="app__container__wishlist">
-                <Wishlist />
-              </div>
-            </div>
-          </>
-        ) : (
-          <AuthCard setAuthenticated={setAuthenticated} />
-        )
-      }
-      {(modalOpened && selectedItem.status != 'borrowed') && (
-        <Modal
-          selectedItem={selectedItem}
-          closeModal={closeModal}
-          list={list}
-          setList={setList}
-          setSelectedItem={setSelectedItem}
-        />
-      )}
+            </>
+          ) : (
+            <AuthCard setAuthenticated={setAuthenticated} />
+          )
+        }
+        {(modalOpened && selectedItem.status != 'borrowed') && (
+          <Modal
+            selectedItem={selectedItem}
+            closeModal={closeModal}
+            list={list}
+            setList={setList}
+            setSelectedItem={setSelectedItem}
+          />
+        )}
+      </div>
     </div>
   )
 }
