@@ -39,6 +39,7 @@ import StevJobsBook from "../assets/images/stevJobsBook.jpg"
 import BlockcahinBook from "../assets/images/blockcahinBook.jpg"
 import CricketBat from "../assets/images/cricketBat.jpg"
 import WiredHeadphones from "../assets/images/wiredHeadphonesGaurav.jpg"
+import DrafterViraj from "../assets/images/drafterViraj.jpeg"
 
 export const itemList = [
 	{
@@ -145,7 +146,7 @@ export const itemList = [
 		itemName: "Drafter",
 		itemDescription: "Drafter, Engineering Drawing",
 		itemImage: DrawingArmTanmay,
-		itemKeywords: ["drawingArm"],
+		itemKeywords: ["drafter"],
 		status: "listed",
 		location: 'Panchavati',
 		itemId: "acf22c65-f57c-4b0a-ab82-b3300cffac3e",
@@ -259,6 +260,16 @@ export const itemList = [
 		status: "listed",
 		location: 'NearJatra Hotel',
 		itemId: "dc92409e-47ba-474e-9903-a9f01b0dc50d",
+	},
+	{
+		itemOwner: "Viraj Sangle",
+		itemName: "Drafter",
+		itemDescription: "Drafter, Engineering Drawing",
+		itemImage: DrafterViraj,
+		itemKeywords: ["drafter", "drawing"],
+		status: "listed",
+		location: 'Meri/Panchawati',
+		itemId: "ccdff8fb-ed07-460f-9880-81d6b61f2114",
 	},
 
 ];
