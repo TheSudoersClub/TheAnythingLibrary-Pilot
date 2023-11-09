@@ -40,6 +40,7 @@ import BlockcahinBook from "../assets/images/blockcahinBook.jpg"
 import CricketBat from "../assets/images/cricketBat.jpg"
 import WiredHeadphones from "../assets/images/wiredHeadphonesGaurav.jpg"
 import DrafterViraj from "../assets/images/drafterViraj.jpeg"
+import FictionBookPrathamesh from '../assets/images/theHauntedBook.jpg'
 
 export const itemList = [
 	{
@@ -270,6 +271,16 @@ export const itemList = [
 		status: "listed",
 		location: 'Meri/Panchawati',
 		itemId: "ccdff8fb-ed07-460f-9880-81d6b61f2114",
+	},
+	{
+		itemOwner: "Prathamesh Pathade",
+		itemName: "Book (Fiction)",
+		itemDescription: "Haunted Museum (The Titanic Locket) Fictional Book",
+		itemImage: FictionBookPrathamesh,
+		itemKeywords: ["book", "fiction"],
+		status: "listed",
+		location: 'Meri/Panchawati',
+		itemId: "8d58bdbd-b108-4141-ab03-3246aa14c899",
 	},
 
 ];
