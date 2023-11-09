@@ -4,7 +4,7 @@ import { useAuthState } from "react-firebase-hooks/auth"
 import { doc, updateDoc, getDocs, addDoc } from "firebase/firestore";
 import { useState, useEffect, useRef } from "react";
 import { db } from '../../config/firebaseDB'
-import { wishlistData } from "../../data/wishList";
+import { wishlistData, wishlistItemsListed } from "../../data/wishList";
 
 
 const Wishlist = () => {
@@ -58,7 +58,7 @@ const Wishlist = () => {
             <div className="wishlist__container">
                 <ul>
                     {wishlist.map((item) => (
-                        <li key={crypto.randomUUID()}>{item}</li>
+                        <li className={wishlistItemsListed.includes(item) && 'listed'} key={crypto.randomUUID()}>{item}</li>
                     ))}
                 </ul>
             </div>

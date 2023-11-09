@@ -31,6 +31,11 @@
    color: var(--txt-clr-2);
    font-size: 1.2rem;
 }
+
+.wishlist__container .listed{
+    text-decoration: line-through;
+}
+
 .whishlist__add{
     margin-top: .5rem;
     display: flex;

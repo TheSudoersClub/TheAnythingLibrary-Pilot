@@ -1,3 +1,8 @@
 export const wishlistData = [
-  'Kindle'
+  'Kindle',
+  'Scientific Calculator'
+]
+
+export const wishlistItemsListed = [
+  // 'Scientific Calculator'
 ]
