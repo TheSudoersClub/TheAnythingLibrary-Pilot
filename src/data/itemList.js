@@ -268,7 +268,7 @@ export const itemList = [
 		itemDescription: "Drafter, Engineering Drawing",
 		itemImage: DrafterViraj,
 		itemKeywords: ["drafter", "drawing"],
-		status: "listed",
+		status: "borrowed",
 		location: 'Meri/Panchawati',
 		itemId: "ccdff8fb-ed07-460f-9880-81d6b61f2114",
 	},
