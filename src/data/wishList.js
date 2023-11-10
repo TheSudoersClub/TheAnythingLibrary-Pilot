@@ -4,5 +4,5 @@ export const wishlistData = [
 ]
 
 export const wishlistItemsListed = [
-  // 'Scientific Calculator'
+  'Scientific Calculator'
 ]

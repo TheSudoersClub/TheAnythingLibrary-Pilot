@@ -41,6 +41,7 @@ import CricketBat from "../assets/images/cricketBat.jpg"
 import WiredHeadphones from "../assets/images/wiredHeadphonesGaurav.jpg"
 import DrafterViraj from "../assets/images/drafterViraj.jpeg"
 import FictionBookPrathamesh from '../assets/images/theHauntedBook.jpg'
+import ScientificCalculator from '../assets/images/scientificCalculator.jpg'
 
 export const itemList = [
 	{
@@ -161,6 +162,16 @@ export const itemList = [
 		status: "listed",
 		location: "Mahatmanagar (near CCM)",
 		itemId: "4673feb9-ec5d-48c7-88df-3ec67c347f4a",
+	},
+	{
+		itemOwner: "Shriram Khandbahale",
+		itemName: "Scientific Calculator ",
+		itemDescription: "Casio fx-991ms Scientific Calculator ",
+		itemImage: ScientificCalculator,
+		itemKeywords: ["calculator", "engineering"],
+		status: "listed",
+		location: "Mahatmanagar (near CCM)",
+		itemId: "0b4ddbd4-e022-40c4-ad6d-2fc4ef7393f1",
 	},
 	{
 		itemOwner: "Sahil Walzade",
