@@ -169,7 +169,7 @@ export const itemList = [
 		itemDescription: "Casio fx-991ms Scientific Calculator ",
 		itemImage: ScientificCalculator,
 		itemKeywords: ["calculator", "engineering"],
-		status: "listed",
+		status: "borrowed",
 		location: "Mahatmanagar (near CCM)",
 		itemId: "0b4ddbd4-e022-40c4-ad6d-2fc4ef7393f1",
 	},
