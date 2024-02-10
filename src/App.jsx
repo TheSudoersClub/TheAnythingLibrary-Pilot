@@ -11,14 +11,6 @@ const App = () => {
   const [list, setList] = useState(itemList);
 
   useEffect(() => {
-    if ('NDEFReader' in window) {
-      alert('1')
-    } else {
-      alert('0')
-    }
-  })
-
-  useEffect(() => {
     const localList = JSON.parse(localStorage.getItem('itemsList')) || itemList;
 
     if (localList != list) {
